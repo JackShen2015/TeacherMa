@@ -156,6 +156,16 @@
       bool managerCancelUserOrder(userID,OrderInfoID)
 4. 数据库操作
    1. insertUser(user)
-   *  inquireUser(userID)
+   *  queryUser(userID)
    *  updateUser(user)
-5. 
+   *  queryAllMenus()
+   *  insertOrder(userID,array\<menu\>)
+   *  updateOrderState(orderID,state)
+   *  updateOrderinfo(orderID,array\<menu\>)
+   *  updateOrderinfoState(userID,state)
+   *  queryOrder(UserID)
+   *  queryManager(ManagerID)
+   *  updateManager(Manager)
+   *  insertuserCommentOrder(userID,OrderID,userCmmonetString)
+   *  insertuserCommentOrderInfo(userID,OrderInfoId,userCommentString)
+5.
